@@ -1,0 +1,41 @@
+body{
+  background-color: #EFF9B2;
+}
+
+.forum{
+  background-color: #D0D89F;
+  width: 300px;
+  height: 350px;
+  padding-top: 10px;
+  padding-left: 35px;
+}
+
+.text{
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.vac{
+  height: 35px;
+  width: 200px;
+  border-radius: 15px;
+  border: none;
+}
+
+.btn{
+  height: 35px;
+  width: 75px;
+  border-radius: 15px;
+  background-color: #A8FFDD;
+  border: none;
+  box-shadow: 5px 5px #FFA8A8;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:active{
+  box-shadow:0 0 #5A67FF;
+  transition: transform 0.3s;
+  transform: translateY(5px) translateX(5px);
+}
